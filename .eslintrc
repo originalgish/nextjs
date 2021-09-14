@@ -2,7 +2,8 @@
 	"root": true,
 	"parser": "@typescript-eslint/parser",
 	"plugins": [
-		"@typescript-eslint"
+		"@typescript-eslint",
+		"prettier"
 	],
 	"rules": {
 		"semi": "off",
@@ -14,11 +15,13 @@
 			{
 				"allowSingleExtends": true
 			}
-		]
+		],
+		"prettier/prettier": 2
 	},
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/eslint-recommended",
-		"plugin:@typescript-eslint/recommended"
+		"plugin:@typescript-eslint/recommended",
+		"prettier"
 	]
 }
