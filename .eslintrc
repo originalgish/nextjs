@@ -16,6 +16,7 @@
 				"allowSingleExtends": true
 			}
 		],
+		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"prettier/prettier": 2
 	},
 	"extends": [
